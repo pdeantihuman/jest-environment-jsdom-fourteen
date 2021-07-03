@@ -14,25 +14,25 @@
     "build": "rimraf lib && tsc -p ./tsconfig.build.json"
   },
   "dependencies": {
-    "@jest/environment": "^24.3.0",
-    "@jest/fake-timers": "^24.3.0",
-    "@jest/types": "^24.3.0",
-    "jest-mock": "^24.0.0",
-    "jest-util": "^24.0.0",
+    "@jest/environment": "^26.6.2",
+    "@jest/fake-timers": "^26.6.2",
+    "@jest/types": "^26.6.2",
+    "jest-mock": "^26.6.2",
+    "jest-util": "^26.6.2",
     "jsdom": "^14.1.0"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.11",
+    "@types/jest": "^26.0.23",
     "@types/jsdom": "^12.2.3",
     "@types/node": "^11.11.3",
-    "husky": "^1.3.1",
-    "jest": "^24.1.0",
+    "husky": "^7",
+    "jest": "^26.6.3",
     "mkdirp": "^0.5.1",
-    "prettier": "^1.16.4",
-    "pretty-quick": "^1.10.0",
+    "prettier": "^2.3.2",
+    "pretty-quick": "^3.1.1",
     "rimraf": "^2.6.3",
-    "ts-jest": "^24.0.0",
-    "typescript": "~3.3.3333"
+    "ts-jest": "^26.5.6",
+    "typescript": "^4.3.5"
   },
   "husky": {
     "hooks": {
